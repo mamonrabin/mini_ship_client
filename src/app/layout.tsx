@@ -1,6 +1,10 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { playfairDisplay } from "./font";
+import { montserrat} from "./font";
+import { Geist } from "next/font/google";
+import { cn } from "@/lib/utils";
+
+const geist = Geist({subsets:['latin'],variable:'--font-sans'});
 
 export const metadata: Metadata = {
   title: "mini-ecommerce",
@@ -14,7 +18,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${playfairDisplay.className}`}>
+    <html lang="en" className={cn(montserrat.className, "font-sans", geist.variable)}>
       <body className="">{children}</body>
     </html>
   );
