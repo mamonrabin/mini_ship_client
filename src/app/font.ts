@@ -1,5 +1,10 @@
-import { Playfair_Display, Montserrat } from "next/font/google";
+import { Playfair_Display, Montserrat, Roboto } from "next/font/google";
 
+export const roboto = Roboto({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700", "900"],
+  display: "swap",
+});
 export const playfairDisplay = Playfair_Display({
   subsets: ["latin"],
   weight: ["400", "700"],

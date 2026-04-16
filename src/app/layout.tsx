@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { montserrat} from "./font";
+import { roboto} from "./font";
 import { Geist } from "next/font/google";
 import { cn } from "@/lib/utils";
 
@@ -18,7 +18,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={cn(montserrat.className, "font-sans", geist.variable)}>
+    <html lang="en" className={cn(roboto.className, "font-sans", geist.variable)}>
       <body className="">{children}</body>
     </html>
   );

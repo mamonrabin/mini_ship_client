@@ -1,4 +1,5 @@
 import Topvar from "@/src/components/header/Topvar";
+import Navbar from "@/src/components/Navbar";
 
 export default function layout({
   children,
@@ -7,6 +8,7 @@ export default function layout({
 }>) {
   return <div className="">
     <Topvar/>
+    <Navbar/>
     {children}
     </div>;
 }
