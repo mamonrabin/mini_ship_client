@@ -19,6 +19,14 @@
   }
 }
 
+.custom-pagination .swiper-pagination-bullet {
+  @apply w-2.5 h-2.5 bg-white! opacity-100! lg:-mt-6! -mt-4! border border-[#262626]/50  rounded-full transition-all duration-300;
+}
+
+.custom-pagination .swiper-pagination-bullet-active {
+  @apply bg-[#1299E8]!   scale-110;
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);

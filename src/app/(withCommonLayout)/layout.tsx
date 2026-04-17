@@ -1,5 +1,6 @@
+import Navbar from "@/src/components/header/Navbar";
 import Topvar from "@/src/components/header/Topvar";
-import Navbar from "@/src/components/Navbar";
+
 
 export default function layout({
   children,

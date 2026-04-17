@@ -32,7 +32,7 @@ const Topvar = () => {
     //   </div>
     // </div>
 
-    <div className="md:Container md:py-1">
+    <div className="2xl:px-28 xl:px-20 lg:px-8 md:px-8  md:py-1">
       <Image className="w-full h-full" src={offer} alt="Logo" width={300} height={300} />
     </div>
   );
