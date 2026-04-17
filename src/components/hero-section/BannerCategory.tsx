@@ -25,11 +25,11 @@ const BannerCategory = () => {
             {/* SUBCATEGORY PANEL */}
             {activeCategory?.id === cat.id &&
               cat.subCategory.length > 0 && (
-                <div className="absolute left-full top-0 w-125 h-80 p-4 bg-white border inline-flex flex-col flex-wrap gap-2 z-50">
+                <div className="absolute left-full top-0 w-130 h-80 p-4 bg-white border inline-flex flex-col flex-wrap gap-2 z-50">
                   {cat.subCategory.map((sub) => (
                     <p
                       key={sub.id}
-                      className="text-sm hover:text-red-500 cursor-pointer"
+                      className="text-base hover:text-[#1B5DD5] duration-300 cursor-pointer"
                     >
                       {sub.title}
                     </p>
