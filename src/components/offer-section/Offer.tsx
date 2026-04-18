@@ -9,7 +9,7 @@ import { offerList } from "@/src/api/offerApi";
 import Image from "next/image";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
-const Offer = () => {
+const  Offer = () => {
   const swiperRef = useRef<SwiperType | null>(null);
 
   return (
@@ -51,7 +51,7 @@ const Offer = () => {
               <SwiperSlide key={item.id}>
                 <div className="flex  items-center justify-center gap-2  cursor-pointer ">
                   {/* Image */}
-                  <div className="w-20 h-20  flex items-center justify-center">
+                  <div className="md:w-20 md:h-20 w-14 h-14  flex items-center justify-center">
                     <Image
                       src={item.image}
                       alt={item.title}
@@ -62,7 +62,7 @@ const Offer = () => {
                   </div>
 
                   {/* Title */}
-                  <p className="text-sm flex-1 mx-2 font-medium  text-gray-700 border-r-2 hover:text-[#1B5DD5] duration-300">
+                  <p className="text-sm flex-1 line-clamp-3 mx-2 font-medium  text-gray-700 border-r-2 hover:text-[#1B5DD5] duration-300">
                     {item.title}
                   </p>
                 </div>
