@@ -17,10 +17,10 @@ const BannerCategory = () => {
             key={cat.id}
             onMouseEnter={() => setActiveCategory(cat as any)}
             onMouseLeave={() => setActiveCategory(null)}
-            className="xl:px-14 lg:px-9 flex items-center justify-between font-normal cursor-pointer"
+            className="xl:px-14 lg:px-9  flex items-center justify-between font-normal cursor-pointer"
           >
-            <span>{cat.title}</span>
-            {cat.subCategory.length > 0 && <span className=""><ChevronRight size={20} /></span>}
+            <span className="hover:text-[#1B5DD5] duration-300">{cat.title}</span>
+            {cat.subCategory.length > 0 && <span className="opacity-30"><ChevronRight size={20} /></span>}
 
             {/* SUBCATEGORY PANEL */}
             {activeCategory?.id === cat.id &&
