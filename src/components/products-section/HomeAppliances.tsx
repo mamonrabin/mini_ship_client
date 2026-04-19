@@ -10,14 +10,14 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 
 import { productList } from "@/src/api/productsApi";
 import ProductCard from "@/src/card/ProductCard";
-const FlashDeals = () => {
+const HomeAppliances = () => {
   const swiperRef = useRef<SwiperType | null>(null);
   return (
     <div className="bg-[#F1F1F1] pb-6 w-full">
       <div className="Container xl:px-24 bg-white md:py-6 py-4 shadow-xs">
         <div className="flex items-center justify-between">
           <h2 className="md:text-2xl text-lg font-semibold capitalize flex-1">
-            Flash Deals on Top Picks!
+            Top-selling Home Appliances!
           </h2>
           <button className="capitalize text-base font-medium py-2 md:px-6 px-4 rounded  bg-[#1B5DD5] border border-[#1B5DD5] hover:bg-transparent text-white hover:text-[#1B5DD5] duration-300 cursor-pointer">
             view all
@@ -57,7 +57,7 @@ const FlashDeals = () => {
               speed={600}
               onSwiper={(swiper) => (swiperRef.current = swiper)}
             >
-              {productList?.slice(0,6).map((item) => (
+              {productList?.slice(6,12).map((item) => (
                 <SwiperSlide key={item.id} className="">
                   <ProductCard item={item} />
                 </SwiperSlide>
@@ -70,4 +70,4 @@ const FlashDeals = () => {
   );
 };
 
-export default FlashDeals;
+export default HomeAppliances;

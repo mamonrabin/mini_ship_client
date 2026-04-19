@@ -10,7 +10,7 @@ const ProductCard = ({ item }: { item: any }) => {
       className="bg-white  rounded-xl border border-[#262626]/20 
      cursor-pointer group"
     >
-      <div className="p-2">
+      <div className="p-2 lg:h-87.5">
         {/* Image */}
         <div className="relative">
           <Image
@@ -20,9 +20,11 @@ const ProductCard = ({ item }: { item: any }) => {
             height={300}
             className="rounded-t-md group-hover:scale-102 transition-transform duration-300 object-contain"
           />
-          <p className="absolute top-2 -right-2 bg-[#FF5722] text-white text-xs font-bold px-2 py-1 rounded-l">
+          {
+            item.discount && <p className="absolute top-2 -right-2 bg-[#FF5722] text-white text-xs font-bold px-2 py-1 rounded-l">
             {item.discount.toFixed(0)}%
           </p>
+          }
         </div>
 
         {/* Title */}
@@ -36,7 +38,8 @@ const ProductCard = ({ item }: { item: any }) => {
           </p>
         </div>
         <div className="flex items-center gap-1 py-2">
-          <div className="flex items-center gap-1">
+          {
+            item?.rating && <div className="flex items-center gap-1">
             {[...Array(5)].map((_, i) => (
               <Star
                 key={i}
@@ -49,7 +52,10 @@ const ProductCard = ({ item }: { item: any }) => {
               />
             ))}
           </div>
-          <p className="text-sm">({item?.selProduct})</p>
+          }
+         {
+          item?.selProduct &&  <p className="text-sm">({item?.selProduct})</p>
+         }
         </div>
       </div>
     </div>
