@@ -10,6 +10,30 @@ import prb9 from "@/src/assets/products/p9.jpg";
 import prb10 from "@/src/assets/products/p10.jpg";
 import prb11 from "@/src/assets/products/p11.jpg";
 import prb12 from "@/src/assets/products/p12.jpg";
+import prb13 from "@/src/assets/products/a1.jpg";
+import prb14 from "@/src/assets/products/a2.jpg";
+import prb15 from "@/src/assets/products/a3.jpg";
+import prb16 from "@/src/assets/products/a4.jpg";
+import prb17 from "@/src/assets/products/a5.jpg";
+import prb18 from "@/src/assets/products/a6.jpg";
+import prb19 from "@/src/assets/products/tv1.jpg";
+import prb20 from "@/src/assets/products/tv2.jpg";
+import prb21 from "@/src/assets/products/tv3.jpg";
+import prb22 from "@/src/assets/products/tv4.jpg";
+import prb23 from "@/src/assets/products/tv5.jpg";
+import prb24 from "@/src/assets/products/tv6.jpg";
+import prb25 from "@/src/assets/products/m1.jpg";
+import prb26 from "@/src/assets/products/m2.jpg";
+import prb27 from "@/src/assets/products/m3.jpg";
+import prb28 from "@/src/assets/products/m4.jpg";
+import prb29 from "@/src/assets/products/m5.jpg";
+import prb30 from "@/src/assets/products/m6.jpg";
+import prb31 from "@/src/assets/products/L1.jpg";
+import prb32 from "@/src/assets/products/L2.jpg";
+import prb33 from "@/src/assets/products/L3.jpg";
+import prb34 from "@/src/assets/products/L4.jpg";
+import prb35 from "@/src/assets/products/L5.jpg";
+import prb36 from "@/src/assets/products/L6.jpg";
 
 export const productList = [
   {
@@ -141,7 +165,7 @@ export const productList = [
     rating: 4.5,
     selProduct: 120,
     discount: 17,
-    thumbelImage: prb1,
+    thumbelImage: prb13,
   },
   {
     id: 14,
@@ -152,7 +176,7 @@ export const productList = [
     rating: 5,
     selProduct: 100,
     discount: 12,
-    thumbelImage: prb2,
+    thumbelImage: prb14,
   },
   {
     id: 15,
@@ -162,7 +186,7 @@ export const productList = [
     rating: 3,
     selProduct: 150,
     discount: 20,
-    thumbelImage: prb3,
+    thumbelImage: prb15,
   },
   {
     id: 16,
@@ -172,7 +196,7 @@ export const productList = [
     rating: 4,
     selProduct: 70,
     discount: 16,
-    thumbelImage: prb4,
+    thumbelImage: prb16,
   },
   {
     id: 17,
@@ -182,7 +206,7 @@ export const productList = [
     rating: 4.5,
     selProduct: 125,
     discount: 70,
-    thumbelImage: prb5,
+    thumbelImage: prb17,
   },
   {
     id: 18,
@@ -192,6 +216,189 @@ export const productList = [
     rating: 4.5,
     selProduct: 125,
     discount: 70,
-    thumbelImage: prb6,
+    thumbelImage: prb18,
+  },
+   {
+    id: 19,
+    title: "Haier 1.5 Ton ZenGlow Inverter Air Conditioner",
+    price: 3500,
+    mrpPrice: 4201,
+    rating: 4.5,
+    selProduct: 120,
+    discount: 17,
+    thumbelImage: prb19,
+  },
+  {
+    id: 20,
+    title:
+      "Walton 1.5 Ton Riverine Prime Intelligent Inverter Air",
+    price: 2800,
+    mrpPrice: 3201,
+    rating: 5,
+    selProduct: 100,
+    discount: 12,
+    thumbelImage: prb20,
+  },
+  {
+    id: 21,
+    title: "Midea 1.5 Ton Flash Cool Inverter Air",
+    price: 1600,
+    mrpPrice: 2000,
+    rating: 3,
+    selProduct: 150,
+    discount: 20,
+    thumbelImage: prb21,
+  },
+  {
+    id: 22,
+    title: "Haier 8Kg Top Load Automatic Washing)",
+    price: 4200,
+    mrpPrice: 5000,
+    rating: 4,
+    selProduct: 70,
+    discount: 16,
+    thumbelImage: prb22,
+  },
+  {
+    id: 23,
+    title: "OnePlus Nord CE5 5G 8GB/256GB (Blue Tide)",
+    price: 6500,
+    mrpPrice: 7000,
+    rating: 4.5,
+    selProduct: 125,
+    discount: 70,
+    thumbelImage: prb23,
+  },
+  {
+    id: 24,
+    title: "OnePlus Nord CE5 5G 8GB/256GB (Blue Tide)",
+    price: 6500,
+    mrpPrice: 7000,
+    rating: 4.5,
+    selProduct: 125,
+    discount: 70,
+    thumbelImage: prb24,
+  },
+  {
+    id: 25,
+    title: "Haier 1.5 Ton ZenGlow Inverter Air Conditioner",
+    price: 3500,
+    mrpPrice: 4201,
+    rating: 4.5,
+    selProduct: 120,
+    discount: 17,
+    thumbelImage: prb25,
+  },
+  {
+    id: 26,
+    title:
+      "Walton 1.5 Ton Riverine Prime Intelligent Inverter Air",
+    price: 2800,
+    mrpPrice: 3201,
+    rating: 5,
+    selProduct: 100,
+    discount: 12,
+    thumbelImage: prb26,
+  },
+  {
+    id: 27,
+    title: "Midea 1.5 Ton Flash Cool Inverter Air",
+    price: 1600,
+    mrpPrice: 2000,
+    rating: 3,
+    selProduct: 150,
+    discount: 20,
+    thumbelImage: prb27,
+  },
+  {
+    id: 28,
+    title: "Haier 8Kg Top Load Automatic Washing)",
+    price: 4200,
+    mrpPrice: 5000,
+    rating: 4,
+    selProduct: 70,
+    discount: 16,
+    thumbelImage: prb28,
+  },
+  {
+    id: 29,
+    title: "OnePlus Nord CE5 5G 8GB/256GB (Blue Tide)",
+    price: 6500,
+    mrpPrice: 7000,
+    rating: 4.5,
+    selProduct: 125,
+    discount: 70,
+    thumbelImage: prb29,
+  },
+  {
+    id: 30,
+    title: "OnePlus Nord CE5 5G 8GB/256GB (Blue Tide)",
+    price: 6500,
+    mrpPrice: 7000,
+    rating: 4.5,
+    selProduct: 125,
+    discount: 70,
+    thumbelImage: prb30,
+  },
+  {
+    id: 31,
+    title: "Haier 1.5 Ton ZenGlow Inverter Air Conditioner",
+    price: 3500,
+    mrpPrice: 4201,
+    rating: 4.5,
+    selProduct: 120,
+    discount: 17,
+    thumbelImage: prb31,
+  },
+  {
+    id: 32,
+    title:
+      "Walton 1.5 Ton Riverine Prime Intelligent Inverter Air",
+    price: 2800,
+    mrpPrice: 3201,
+    rating: 5,
+    selProduct: 100,
+    discount: 12,
+    thumbelImage: prb32,
+  },
+  {
+    id: 33,
+    title: "Midea 1.5 Ton Flash Cool Inverter Air",
+    price: 1600,
+    mrpPrice: 2000,
+    rating: 3,
+    selProduct: 150,
+    discount: 20,
+    thumbelImage: prb33,
+  },
+  {
+    id: 34,
+    title: "Haier 8Kg Top Load Automatic Washing)",
+    price: 4200,
+    mrpPrice: 5000,
+    rating: 4,
+    selProduct: 70,
+    discount: 16,
+    thumbelImage: prb34,
+  },
+  {
+    id: 35,
+    title: "OnePlus Nord CE5 5G 8GB/256GB (Blue Tide)",
+    price: 6500,
+    mrpPrice: 7000,
+    rating: 4.5,
+    selProduct: 125,
+    discount: 70,
+    thumbelImage: prb35,
+  },
+  {
+    id: 36,
+    title: "OnePlus Nord CE5 5G 8GB/256GB (Blue Tide)",
+    price: 6500,
+    mrpPrice: 7000,
+    rating: 4.5,
+    selProduct: 125,
+    discount: 70,
+    thumbelImage: prb36,
   },
 ];
