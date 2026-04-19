@@ -5,6 +5,7 @@ import Banner from '@/src/components/hero-section/Banner';
 import Offer from '@/src/components/offer-section/Offer';
 import AirConditioners from '@/src/components/products-section/AirConditioners';
 import FlashDeals from '@/src/components/products-section/FlashDeals';
+import Freezers from '@/src/components/products-section/Freezers';
 import HomeAppliances from '@/src/components/products-section/HomeAppliances';
 import Laundry from '@/src/components/products-section/Laundry';
 import SmartPhones from '@/src/components/products-section/SmartPhones';
@@ -25,6 +26,7 @@ const page = () => {
      <SmartTVs/>
      <SmartPhones/>
      <Laundry/>
+     <Freezers/>
     </div>
   );
 };
