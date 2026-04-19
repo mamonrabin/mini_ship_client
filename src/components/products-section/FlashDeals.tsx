@@ -7,8 +7,9 @@ import type { Swiper as SwiperType } from "swiper";
 import "swiper/css";
 
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import { scategoryList } from "@/src/api/shopCategoryApi";
-import CategoryCard from "@/src/card/CategoryCard";
+
+import { productList } from "@/src/api/productsApi";
+import ProductCard from "@/src/card/ProductCard";
 const FlashDeals = () => {
   const swiperRef = useRef<SwiperType | null>(null);
   return (
@@ -28,7 +29,7 @@ const FlashDeals = () => {
             {/* Left Button */}
             <button
               onClick={() => swiperRef.current?.slidePrev()}
-              className="w-10 h-10 rounded-full border border-[#262626] absolute xl:-left-13 lg:-left-8 top-1/2 -translate-y-1/2 z-10 hidden lg:flex items-center justify-center text-[#262626] cursor-pointer"
+              className="w-10 h-10 rounded-full border border-[#262626] hover:border-[#1B5DD5] hover:bg-[#1B5DD5] hover:text-white duration-300 absolute xl:-left-13 lg:-left-8 top-1/2 -translate-y-1/2 z-10 hidden lg:flex items-center justify-center text-[#262626] cursor-pointer"
             >
               <ChevronLeft size={28} />
             </button>
@@ -36,17 +37,17 @@ const FlashDeals = () => {
             {/* Right Button */}
             <button
               onClick={() => swiperRef.current?.slideNext()}
-              className="absolute xl:-right-10 lg:-right-8 top-1/2 -translate-y-1/2 z-10 hidden lg:flex items-center justify-center text-[#262626] cursor-pointer"
+              className="w-10 h-10 rounded-full border border-[#262626] hover:border-[#1B5DD5] hover:bg-[#1B5DD5] hover:text-white duration-300 absolute xl:-right-13 lg:-right-8 top-1/2 -translate-y-1/2 z-10 hidden lg:flex items-center justify-center text-[#262626] cursor-pointer"
             >
               <ChevronRight size={28} />
             </button>
 
             <Swiper
-              slidesPerView={3}
+              slidesPerView={2}
               spaceBetween={8}
               loop={true}
               breakpoints={{
-                640: { slidesPerView: 3 },
+                640: { slidesPerView: 2 },
                 700: { slidesPerView: 3 },
                 768: { slidesPerView: 3 },
                 1024: { slidesPerView: 4 },
@@ -56,9 +57,9 @@ const FlashDeals = () => {
               speed={600}
               onSwiper={(swiper) => (swiperRef.current = swiper)}
             >
-              {scategoryList?.slice(8,16).map((item) => (
-                <SwiperSlide key={item.id}>
-                  <CategoryCard item={item} />
+              {productList?.map((item) => (
+                <SwiperSlide key={item.id} className="">
+                  <ProductCard item={item} />
                 </SwiperSlide>
               ))}
             </Swiper>
