@@ -7,6 +7,7 @@ import AirConditioners from '@/src/components/products-section/AirConditioners';
 import FlashDeals from '@/src/components/products-section/FlashDeals';
 import Freezers from '@/src/components/products-section/Freezers';
 import HomeAppliances from '@/src/components/products-section/HomeAppliances';
+import KitchenEssentials from '@/src/components/products-section/KitchenEssentials';
 import Laundry from '@/src/components/products-section/Laundry';
 import SmartPhones from '@/src/components/products-section/SmartPhones';
 import SmartTVs from '@/src/components/products-section/SmartTVs';
@@ -27,6 +28,7 @@ const page = () => {
      <SmartPhones/>
      <Laundry/>
      <Freezers/>
+     <KitchenEssentials/>
     </div>
   );
 };

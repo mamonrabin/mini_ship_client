@@ -40,6 +40,12 @@ import prb39 from "@/src/assets/products/f3.jpg";
 import prb40 from "@/src/assets/products/f4.jpg";
 import prb41 from "@/src/assets/products/f5.jpg";
 import prb42 from "@/src/assets/products/f6.jpg";
+import prb43 from "@/src/assets/products/k1.jpg";
+import prb44 from "@/src/assets/products/k2.jpg";
+import prb45 from "@/src/assets/products/k3.jpg";
+import prb46 from "@/src/assets/products/k4.jpg";
+import prb47 from "@/src/assets/products/k5.jpg";
+import prb48 from "@/src/assets/products/k6.jpg";
 
 export const productList = [
   {
@@ -467,5 +473,66 @@ export const productList = [
     selProduct: 125,
     discount: 70,
     thumbelImage: prb42,
+  },
+  {
+    id: 43,
+    title: "Haier 1.5 Ton ZenGlow Inverter Air Conditioner",
+    price: 3500,
+    mrpPrice: 4201,
+    rating: 4.5,
+    selProduct: 120,
+    discount: 17,
+    thumbelImage: prb43,
+  },
+  {
+    id: 44,
+    title:
+      "Walton 1.5 Ton Riverine Prime Intelligent Inverter Air",
+    price: 2800,
+    mrpPrice: 3201,
+    rating: 5,
+    selProduct: 100,
+    discount: 12,
+    thumbelImage: prb44,
+  },
+  {
+    id: 45,
+    title: "Midea 1.5 Ton Flash Cool Inverter Air",
+    price: 1600,
+    mrpPrice: 2000,
+    rating: 3,
+    selProduct: 150,
+    discount: 20,
+    thumbelImage: prb45,
+  },
+  {
+    id: 46,
+    title: "Haier 8Kg Top Load Automatic Washing)",
+    price: 4200,
+    mrpPrice: 5000,
+    rating: 4,
+    selProduct: 70,
+    discount: 16,
+    thumbelImage: prb46,
+  },
+  {
+    id: 47,
+    title: "OnePlus Nord CE5 5G 8GB/256GB (Blue Tide)",
+    price: 6500,
+    mrpPrice: 7000,
+    rating: 4.5,
+    selProduct: 125,
+    discount: 70,
+    thumbelImage: prb47,
+  },
+  {
+    id: 48,
+    title: "OnePlus Nord CE5 5G 8GB/256GB (Blue Tide)",
+    price: 6500,
+    mrpPrice: 7000,
+    rating: 4.5,
+    selProduct: 125,
+    discount: 70,
+    thumbelImage: prb48,
   },
 ];
