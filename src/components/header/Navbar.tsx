@@ -7,7 +7,7 @@ import ResponsiveNav from "./ResponsiveNav";
 
 const Navbar = () => {
   return (
-    <div className="bg-[#1299E8]">
+    <div className="bg-[#1299E8] sticky top-0 z-50">
       <nav className="Container flex items-center justify-between py-4 relative  text-white">
         <div className="flex items-center xl:gap-6 gap-4">
           <div className="lg:hidden">
