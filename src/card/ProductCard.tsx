@@ -2,6 +2,7 @@
 "use client";
 import { Star } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const ProductCard = ({ item }: { item: any }) => {
@@ -10,6 +11,7 @@ const ProductCard = ({ item }: { item: any }) => {
       className="bg-white  rounded-xl border border-[#262626]/20 
      cursor-pointer group"
     >
+      <Link href={`/product/${item.id}`}>
       <div className="p-2 lg:h-87.5">
         {/* Image */}
         <div className="relative">
@@ -58,6 +60,7 @@ const ProductCard = ({ item }: { item: any }) => {
          }
         </div>
       </div>
+      </Link>
     </div>
   );
 };
