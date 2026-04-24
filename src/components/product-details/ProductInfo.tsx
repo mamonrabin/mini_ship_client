@@ -92,7 +92,7 @@ const ProductInfo = () => {
       </div>
 
       <div className="py-4 border-b border-[#262626]/15">
-        <Quantity />
+        <Quantity Quantity="Quantity :" />
 
         <div className="mt-4">
           <AddBuyBtn />

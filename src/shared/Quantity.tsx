@@ -1,9 +1,10 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 "use client";
 
 import { Minus, Plus } from "lucide-react";
 import React, { useState } from "react";
 
-const Quantity = () => {
+const Quantity = ({Quantity}:any) => {
   const [quantity, setQuantity] = useState(1);
 
   const handleDecrease = () => {
@@ -18,7 +19,7 @@ const Quantity = () => {
 
   return (
     <div className="flex items-center gap-8">
-      <p className="font-medium">Quantity :</p>
+      <p className="font-medium">{Quantity}</p>
 
       <div className="flex items-center">
         {/* Minus Button */}
