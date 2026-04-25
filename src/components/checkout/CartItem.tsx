@@ -1,6 +1,7 @@
 import { productList } from "@/src/api/productsApi";
 import Quantity from "@/src/shared/Quantity";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const CartItem = () => {
@@ -63,8 +64,12 @@ const CartItem = () => {
         </div>
       </div>
       <div className="mt-4 md:static border-t z-20 fixed bottom-0 right-0 left-0 w-full bg-white rounded py-6 shadow px-4 flex items-center justify-between md:justify-end">
-          <p className="md:hidden text-lg font-semibold">৳ 253,838</p>
-          <button className="bg-[#002F67] border border-[#002F67] hover:text-[#002F67] hover:bg-transparent duration-300  text-white font-medium px-6 py-3 rounded cursor-pointer" >Proceed to checkout</button>
+        <p className="md:hidden text-lg font-semibold">৳ 253,838</p>
+        <Link href="/checkout">
+          <button className="bg-[#002F67] border border-[#002F67] hover:text-[#002F67] hover:bg-transparent duration-300  text-white font-medium px-6 py-3 rounded cursor-pointer">
+            Proceed to checkout
+          </button>
+        </Link>
       </div>
     </div>
   );

@@ -70,9 +70,10 @@ const CheckoutForm = () => {
                 )}
               </div>
 
-              <select
+             <div className="flex flex-col w-full">
+                 <select
                 {...register("thana", { required: true })}
-                className="px-2 py-2 rounded border border-[#002F67]/20 text-sm w-full outline-none"
+                className="px-2 py-2  rounded border border-[#002F67]/20 text-sm w-full outline-none"
                 // onChange={(e) => onCityChange(e.target.value)}
               >
                 <option value="">Select Thana</option>
@@ -87,6 +88,7 @@ const CheckoutForm = () => {
                   Please select a thana
                 </span>
               )}
+             </div>
             </div>
 
             <div className="mt-2">
