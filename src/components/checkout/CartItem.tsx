@@ -49,7 +49,7 @@ const CartItem = () => {
 
               <div className="flex md:flex-col items-center md:gap-0 gap-4 -ml-8.5 lg:mt-0 mt-4">
                 <Quantity />
-                <div className="flex lg:mt-4 -mt-1  items-center gap-4  cursor-pointer">
+                <div className="flex md:mt-4 -mt-1  items-center gap-4  cursor-pointer">
                   <p className="md:text-sm text-xs font-medium hover:text-[#1B5DD5] duration-300">
                     Save for later
                   </p>
