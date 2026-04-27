@@ -34,13 +34,13 @@ const ResponsiveNav = () => {
                   <div className="w-8 h-8 overflow-hidden">
                     <Image
                       src={category.image}
-                      alt={category.title}
+                      alt={category.category}
                       width={100}
                       height={100}
                     />
                   </div>
                   <p className="font-semibold text-base hover:text-[#1B5DD5] duration-300">
-                    {category.title}
+                    {category.category}
                   </p>
                 </div>
 

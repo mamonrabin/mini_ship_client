@@ -1,9 +1,11 @@
 "use client";
 import { Mail } from "lucide-react";
-import React, { useState } from "react";
-import { GrGooglePlus } from "react-icons/gr";
+import { useState } from "react";
+
 import { Eye, EyeOff } from "lucide-react";
 import Link from "next/link";
+import { FcGoogle } from "react-icons/fc";
+import { signIn } from "next-auth/react";
 const LoginE = () => {
   const [show, setShow] = useState(false);
   return (
@@ -17,7 +19,10 @@ const LoginE = () => {
           <div className="flex items-center justify-center gap-4 py-3 text-gray-500 font-medium bg-[#EFEFEF] border rounded ">
             <Mail size={20} />
             <p>
-              Login with <Link href="/login"><span className="font-bold text-gray-600">Number</span></Link>
+              Login with{" "}
+              <Link href="/login">
+                <span className="font-bold text-gray-600">Number</span>
+              </Link>
             </p>
           </div>
 
@@ -63,11 +68,18 @@ const LoginE = () => {
             <p className="py-3 text-center text-sm font-medium text-gray-500 hover:text-[#1B5DD5] duration-300 cursor-pointer">
               Forgot Your Password?
             </p>
-
-            <p className="mt-2 cursor-pointer flex items-center justify-center border hover:border-[#1B5DD5] hover:text-[#1B5DD5] duration-300  py-3 rounded gap-2">
-              <GrGooglePlus size={20} /> Google
-            </p>
           </form>
+          <button
+            onClick={() =>
+              signIn("google", {
+                callbackUrl: "/",
+              })
+            }
+            className="mt-2 w-full cursor-pointer flex items-center justify-center border hover:border-[#1B5DD5] hover:text-[#1B5DD5] duration-300 py-3 rounded gap-2"
+          >
+            <FcGoogle size={20} />
+            Continue with Google
+          </button>
         </div>
       </div>
     </div>

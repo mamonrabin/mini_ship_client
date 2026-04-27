@@ -81,17 +81,18 @@ export const productList = [
     selProduct: 120,
     discount: 17,
     thumbelImage: prb1,
+    category: "Air Conditioners",
   },
   {
     id: 2,
-    title:
-      "Walton 1.5 Ton Riverine Prime Intelligent Inverter Air",
+    title: "Walton 1.5 Ton Riverine Prime Intelligent Inverter Air",
     price: 2800,
     mrpPrice: 3201,
     rating: 5,
     selProduct: 100,
     discount: 12,
     thumbelImage: prb2,
+    category: "Television",
   },
   {
     id: 3,
@@ -102,6 +103,7 @@ export const productList = [
     selProduct: 150,
     discount: 20,
     thumbelImage: prb3,
+    category: "Smartphones",
   },
   {
     id: 4,
@@ -112,6 +114,7 @@ export const productList = [
     selProduct: 70,
     discount: 16,
     thumbelImage: prb4,
+    category: "Smartphones",
   },
   {
     id: 5,
@@ -122,6 +125,7 @@ export const productList = [
     selProduct: 125,
     discount: 70,
     thumbelImage: prb5,
+    category: "Smartphones",
   },
   {
     id: 6,
@@ -132,6 +136,7 @@ export const productList = [
     selProduct: 125,
     discount: 70,
     thumbelImage: prb6,
+    category: "Smartphones",
   },
   {
     id: 7,
@@ -142,6 +147,7 @@ export const productList = [
     selProduct: 98,
     discount: 70,
     thumbelImage: prb7,
+    category: "Mobile Accessories",
   },
   {
     id: 8,
@@ -152,6 +158,7 @@ export const productList = [
     selProduct: 198,
     discount: 50,
     thumbelImage: prb8,
+    category: "Mobile Accessories",
   },
   {
     id: 9,
@@ -162,6 +169,7 @@ export const productList = [
     selProduct: 200,
     discount: 10,
     thumbelImage: prb9,
+    category: "Mobile Accessories",
   },
   {
     id: 10,
@@ -172,6 +180,7 @@ export const productList = [
     selProduct: "",
     discount: "",
     thumbelImage: prb10,
+    category: "Mobile Accessories",
   },
   {
     id: 11,
@@ -182,6 +191,7 @@ export const productList = [
     selProduct: 200,
     discount: 98,
     thumbelImage: prb11,
+    category: "Air Conditioners",
   },
   {
     id: 12,
@@ -192,6 +202,7 @@ export const productList = [
     selProduct: 200,
     discount: 98,
     thumbelImage: prb12,
+    category: "Air Conditioners",
   },
   {
     id: 13,
@@ -202,17 +213,18 @@ export const productList = [
     selProduct: 120,
     discount: 17,
     thumbelImage: prb13,
+    category: "Air Conditioners",
   },
   {
     id: 14,
-    title:
-      "Walton 1.5 Ton Riverine Prime Intelligent Inverter Air",
+    title: "Walton 1.5 Ton Riverine Prime Intelligent Inverter Air",
     price: 2800,
     mrpPrice: 3201,
     rating: 5,
     selProduct: 100,
     discount: 12,
     thumbelImage: prb14,
+    category: "Air Conditioners",
   },
   {
     id: 15,
@@ -223,6 +235,7 @@ export const productList = [
     selProduct: 150,
     discount: 20,
     thumbelImage: prb15,
+    category: "Smartphones",
   },
   {
     id: 16,
@@ -233,6 +246,7 @@ export const productList = [
     selProduct: 70,
     discount: 16,
     thumbelImage: prb16,
+    category: "Smartphones",
   },
   {
     id: 17,
@@ -243,6 +257,7 @@ export const productList = [
     selProduct: 125,
     discount: 70,
     thumbelImage: prb17,
+    category: "Smartphones",
   },
   {
     id: 18,
@@ -253,8 +268,9 @@ export const productList = [
     selProduct: 125,
     discount: 70,
     thumbelImage: prb18,
+    category: "Lifestyle & Fashion",
   },
-   {
+  {
     id: 19,
     title: "Haier 1.5 Ton ZenGlow Inverter Air Conditioner",
     price: 3500,
@@ -263,17 +279,18 @@ export const productList = [
     selProduct: 120,
     discount: 17,
     thumbelImage: prb19,
+    category: "Mobile Accessories",
   },
   {
     id: 20,
-    title:
-      "Walton 1.5 Ton Riverine Prime Intelligent Inverter Air",
+    title: "Walton 1.5 Ton Riverine Prime Intelligent Inverter Air",
     price: 2800,
     mrpPrice: 3201,
     rating: 5,
     selProduct: 100,
     discount: 12,
     thumbelImage: prb20,
+    category: "Mobile Accessories",
   },
   {
     id: 21,
@@ -284,6 +301,7 @@ export const productList = [
     selProduct: 150,
     discount: 20,
     thumbelImage: prb21,
+    category: "Mobile Accessories",
   },
   {
     id: 22,
@@ -294,6 +312,7 @@ export const productList = [
     selProduct: 70,
     discount: 16,
     thumbelImage: prb22,
+    category: "Mobile Accessories",
   },
   {
     id: 23,
@@ -304,6 +323,7 @@ export const productList = [
     selProduct: 125,
     discount: 70,
     thumbelImage: prb23,
+    category: "Mobile Accessories",
   },
   {
     id: 24,
@@ -314,6 +334,7 @@ export const productList = [
     selProduct: 125,
     discount: 70,
     thumbelImage: prb24,
+    category: "Mobile Accessories",
   },
   {
     id: 25,
@@ -324,17 +345,18 @@ export const productList = [
     selProduct: 120,
     discount: 17,
     thumbelImage: prb25,
+    category: "Mobile Accessories",
   },
   {
     id: 26,
-    title:
-      "Walton 1.5 Ton Riverine Prime Intelligent Inverter Air",
+    title: "Walton 1.5 Ton Riverine Prime Intelligent Inverter Air",
     price: 2800,
     mrpPrice: 3201,
     rating: 5,
     selProduct: 100,
     discount: 12,
     thumbelImage: prb26,
+    category: "Mobile Accessories",
   },
   {
     id: 27,
@@ -345,6 +367,7 @@ export const productList = [
     selProduct: 150,
     discount: 20,
     thumbelImage: prb27,
+    category: "Mobile Accessories",
   },
   {
     id: 28,
@@ -355,6 +378,7 @@ export const productList = [
     selProduct: 70,
     discount: 16,
     thumbelImage: prb28,
+    category: "Mobile Accessories",
   },
   {
     id: 29,
@@ -365,6 +389,7 @@ export const productList = [
     selProduct: 125,
     discount: 70,
     thumbelImage: prb29,
+    category: "Washing Machine",
   },
   {
     id: 30,
@@ -375,6 +400,7 @@ export const productList = [
     selProduct: 125,
     discount: 70,
     thumbelImage: prb30,
+    category: "Washing Machine",
   },
   {
     id: 31,
@@ -385,17 +411,18 @@ export const productList = [
     selProduct: 120,
     discount: 17,
     thumbelImage: prb31,
+    category: "Washing Machine",
   },
   {
     id: 32,
-    title:
-      "Walton 1.5 Ton Riverine Prime Intelligent Inverter Air",
+    title: "Walton 1.5 Ton Riverine Prime Intelligent Inverter Air",
     price: 2800,
     mrpPrice: 3201,
     rating: 5,
     selProduct: 100,
     discount: 12,
     thumbelImage: prb32,
+    category: "Washing Machine",
   },
   {
     id: 33,
@@ -406,6 +433,7 @@ export const productList = [
     selProduct: 150,
     discount: 20,
     thumbelImage: prb33,
+    category: "Washing Machine",
   },
   {
     id: 34,
@@ -416,6 +444,7 @@ export const productList = [
     selProduct: 70,
     discount: 16,
     thumbelImage: prb34,
+    category: "Washing Machine",
   },
   {
     id: 35,
@@ -426,6 +455,7 @@ export const productList = [
     selProduct: 125,
     discount: 70,
     thumbelImage: prb35,
+    category: "Washing Machine",
   },
   {
     id: 36,
@@ -436,6 +466,7 @@ export const productList = [
     selProduct: 125,
     discount: 70,
     thumbelImage: prb36,
+    category: "Washing Machine",
   },
   {
     id: 37,
@@ -446,17 +477,18 @@ export const productList = [
     selProduct: 120,
     discount: 17,
     thumbelImage: prb37,
+    category: "Washing Machine",
   },
   {
     id: 38,
-    title:
-      "Walton 1.5 Ton Riverine Prime Intelligent Inverter Air",
+    title: "Walton 1.5 Ton Riverine Prime Intelligent Inverter Air",
     price: 2800,
     mrpPrice: 3201,
     rating: 5,
     selProduct: 100,
     discount: 12,
     thumbelImage: prb38,
+    category: "Washing Machine",
   },
   {
     id: 39,
@@ -467,6 +499,7 @@ export const productList = [
     selProduct: 150,
     discount: 20,
     thumbelImage: prb39,
+    category: "Television",
   },
   {
     id: 40,
@@ -477,6 +510,7 @@ export const productList = [
     selProduct: 70,
     discount: 16,
     thumbelImage: prb40,
+    category: "Television",
   },
   {
     id: 41,
@@ -487,6 +521,7 @@ export const productList = [
     selProduct: 125,
     discount: 70,
     thumbelImage: prb41,
+    category: "Television",
   },
   {
     id: 42,
@@ -497,6 +532,7 @@ export const productList = [
     selProduct: 125,
     discount: 70,
     thumbelImage: prb42,
+    category: "Television",
   },
   {
     id: 43,
@@ -507,17 +543,18 @@ export const productList = [
     selProduct: 120,
     discount: 17,
     thumbelImage: prb43,
+    category: "Television",
   },
   {
     id: 44,
-    title:
-      "Walton 1.5 Ton Riverine Prime Intelligent Inverter Air",
+    title: "Walton 1.5 Ton Riverine Prime Intelligent Inverter Air",
     price: 2800,
     mrpPrice: 3201,
     rating: 5,
     selProduct: 100,
     discount: 12,
     thumbelImage: prb44,
+    category: "Television",
   },
   {
     id: 45,
@@ -528,6 +565,7 @@ export const productList = [
     selProduct: 150,
     discount: 20,
     thumbelImage: prb45,
+    category: "Television",
   },
   {
     id: 46,
@@ -538,6 +576,7 @@ export const productList = [
     selProduct: 70,
     discount: 16,
     thumbelImage: prb46,
+    category: "Television",
   },
   {
     id: 47,
@@ -548,6 +587,7 @@ export const productList = [
     selProduct: 125,
     discount: 70,
     thumbelImage: prb47,
+    category: "Television",
   },
   {
     id: 48,
@@ -558,6 +598,7 @@ export const productList = [
     selProduct: 125,
     discount: 70,
     thumbelImage: prb48,
+    category: "Television",
   },
   {
     id: 49,
@@ -568,17 +609,18 @@ export const productList = [
     selProduct: 120,
     discount: 17,
     thumbelImage: prb49,
+    category: "Electronics & Appliances",
   },
   {
     id: 50,
-    title:
-      "Walton 1.5 Ton Riverine Prime Intelligent Inverter Air",
+    title: "Walton 1.5 Ton Riverine Prime Intelligent Inverter Air",
     price: 2800,
     mrpPrice: 3201,
     rating: 5,
     selProduct: 100,
     discount: 12,
     thumbelImage: prb50,
+    category: "Electronics & Appliances",
   },
   {
     id: 51,
@@ -589,6 +631,7 @@ export const productList = [
     selProduct: 150,
     discount: 20,
     thumbelImage: prb51,
+    category: "Electronics & Appliances",
   },
   {
     id: 52,
@@ -599,6 +642,7 @@ export const productList = [
     selProduct: 70,
     discount: 16,
     thumbelImage: prb52,
+    category: "Electronics & Appliances",
   },
   {
     id: 53,
@@ -609,6 +653,7 @@ export const productList = [
     selProduct: 125,
     discount: 70,
     thumbelImage: prb53,
+    category: "Electronics & Appliances",
   },
   {
     id: 54,
@@ -619,6 +664,7 @@ export const productList = [
     selProduct: 125,
     discount: 70,
     thumbelImage: prb54,
+    category: "Electronics & Appliances",
   },
   {
     id: 55,
@@ -629,17 +675,18 @@ export const productList = [
     selProduct: 120,
     discount: 17,
     thumbelImage: prb55,
+    category: "Electronics & Appliances",
   },
   {
     id: 56,
-    title:
-      "Walton 1.5 Ton Riverine Prime Intelligent Inverter Air",
+    title: "Walton 1.5 Ton Riverine Prime Intelligent Inverter Air",
     price: 2800,
     mrpPrice: 3201,
     rating: 5,
     selProduct: 100,
     discount: 12,
     thumbelImage: prb56,
+    category: "Electronics & Appliances",
   },
   {
     id: 57,
@@ -650,6 +697,7 @@ export const productList = [
     selProduct: 150,
     discount: 20,
     thumbelImage: prb57,
+    category: "Electronics & Appliances",
   },
   {
     id: 58,
@@ -660,6 +708,7 @@ export const productList = [
     selProduct: 70,
     discount: 16,
     thumbelImage: prb58,
+    category: "Electronics & Appliances",
   },
   {
     id: 59,
@@ -670,6 +719,7 @@ export const productList = [
     selProduct: 125,
     discount: 70,
     thumbelImage: prb59,
+    category: "Smartphones",
   },
   {
     id: 60,
@@ -680,9 +730,10 @@ export const productList = [
     selProduct: 125,
     discount: 70,
     thumbelImage: prb60,
+    category: "Smartphones",
   },
 
-   {
+  {
     id: 61,
     title: "Haier 1.5 Ton ZenGlow Inverter Air Conditioner",
     price: 3500,
@@ -691,17 +742,18 @@ export const productList = [
     selProduct: 120,
     discount: 17,
     thumbelImage: prb61,
+    category: "Smartphones",
   },
   {
     id: 62,
-    title:
-      "Walton 1.5 Ton Riverine Prime Intelligent Inverter Air",
+    title: "Walton 1.5 Ton Riverine Prime Intelligent Inverter Air",
     price: 2800,
     mrpPrice: 3201,
     rating: 5,
     selProduct: 100,
     discount: 12,
     thumbelImage: prb62,
+    category: "Smartphones",
   },
   {
     id: 63,
@@ -712,6 +764,7 @@ export const productList = [
     selProduct: 150,
     discount: 20,
     thumbelImage: prb63,
+    category: "Smartphones",
   },
   {
     id: 64,
@@ -722,6 +775,7 @@ export const productList = [
     selProduct: 70,
     discount: 16,
     thumbelImage: prb64,
+    category: "Smartphones",
   },
   {
     id: 65,
@@ -732,6 +786,7 @@ export const productList = [
     selProduct: 125,
     discount: 70,
     thumbelImage: prb65,
+    category: "Smartphones",
   },
   {
     id: 66,
@@ -742,6 +797,7 @@ export const productList = [
     selProduct: 125,
     discount: 70,
     thumbelImage: prb66,
+    category: "Smartphones",
   },
   {
     id: 67,
@@ -752,17 +808,18 @@ export const productList = [
     selProduct: 120,
     discount: 17,
     thumbelImage: prb67,
+    category: "Air Conditioners",
   },
   {
     id: 68,
-    title:
-      "Walton 1.5 Ton Riverine Prime Intelligent Inverter Air",
+    title: "Walton 1.5 Ton Riverine Prime Intelligent Inverter Air",
     price: 2800,
     mrpPrice: 3201,
     rating: 5,
     selProduct: 100,
     discount: 12,
     thumbelImage: prb68,
+    category: "Air Conditioners",
   },
   {
     id: 69,
@@ -773,6 +830,7 @@ export const productList = [
     selProduct: 150,
     discount: 20,
     thumbelImage: prb69,
+    category: "Air Conditioners",
   },
   {
     id: 70,
@@ -783,6 +841,7 @@ export const productList = [
     selProduct: 70,
     discount: 16,
     thumbelImage: prb70,
+    category: "Air Conditioners",
   },
   {
     id: 71,
@@ -793,6 +852,7 @@ export const productList = [
     selProduct: 125,
     discount: 70,
     thumbelImage: prb71,
+    category: "Air Conditioners",
   },
   {
     id: 72,
@@ -803,5 +863,6 @@ export const productList = [
     selProduct: 125,
     discount: 70,
     thumbelImage: prb72,
+    category: "Air Conditioners",
   },
 ];

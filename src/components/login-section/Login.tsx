@@ -4,7 +4,7 @@ import { signIn } from "next-auth/react";
 import Link from "next/link";
 import React from "react";
 import { FcGoogle } from "react-icons/fc";
-import { GrGooglePlus } from "react-icons/gr";
+
 
 const Login = () => {
   return (

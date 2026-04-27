@@ -19,7 +19,7 @@ const BannerCategory = () => {
             onMouseLeave={() => setActiveCategory(null)}
             className="xl:px-14 lg:px-9  flex items-center justify-between font-normal cursor-pointer"
           >
-            <span className="hover:text-[#1B5DD5] duration-300">{cat.title}</span>
+            <span className="hover:text-[#1B5DD5] duration-300">{cat.category}</span>
             {cat.subCategory.length > 0 && <span className="opacity-30"><ChevronRight size={20} /></span>}
 
             {/* SUBCATEGORY PANEL */}

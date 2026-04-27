@@ -11,7 +11,7 @@ import cat9 from "@/src/assets/category/cat9.jpg";
 export const categoryList = [
   {
     id: 1,
-    title: "Air Conditioners",
+    category: "Air Conditioners",
     image: cat1,
     subCategory: [
       {
@@ -66,7 +66,7 @@ export const categoryList = [
   },
   {
     id: 2,
-    title: "Electronics & Appliances",
+    category: "Electronics & Appliances",
     image: cat2,
     subCategory: [
       {
@@ -157,7 +157,7 @@ export const categoryList = [
   },
   {
     id: 3,
-    title: "Smartphones",
+    category: "Smartphones",
     image: cat3,
     subCategory: [
       {
@@ -221,19 +221,19 @@ export const categoryList = [
 
   {
     id: 4,
-    title: "Television",
+    category: "Television",
     image: cat4,
     subCategory: [],
   },
   {
     id: 5,
-    title: "Washing Machine",
+    category: "Washing Machine",
      image: cat5,
     subCategory: [],
   },
   {
     id: 6,
-    title: "Mobile Accessories",
+    category: "Mobile Accessories",
      image: cat6,
     subCategory: [
       {
@@ -281,7 +281,7 @@ export const categoryList = [
 
   {
     id: 7,
-    title: "Computers",
+    category: "Computers",
      image: cat7,
     subCategory: [
       {
@@ -308,13 +308,13 @@ export const categoryList = [
   },
   {
     id: 8,
-    title: "Computer Accessories",
+    category: "Computer Accessories",
      image: cat8,
     subCategory: [],
   },
   {
     id: 9,
-    title: "Lifestyle & Fashion",
+    category: "Lifestyle & Fashion",
      image: cat9,
     subCategory: [
       {
