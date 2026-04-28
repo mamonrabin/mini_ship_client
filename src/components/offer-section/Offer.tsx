@@ -4,10 +4,11 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 import type { Swiper as SwiperType } from "swiper";
 
-import "swiper/css";
+// import "swiper/css";
 import { offerList } from "@/src/api/offerApi";
 import Image from "next/image";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import Link from "next/link";
 
 const  Offer = () => {
   const swiperRef = useRef<SwiperType | null>(null);
@@ -62,9 +63,11 @@ const  Offer = () => {
                   </div>
 
                   {/* Title */}
+                 <Link href={`/product/${item.id}`}>
                   <p className="text-sm flex-1 line-clamp-3 mx-2 font-medium  text-gray-700 border-r-2 hover:text-[#1B5DD5] duration-300">
                     {item.title}
                   </p>
+                 </Link>
                 </div>
               </SwiperSlide>
             ))}

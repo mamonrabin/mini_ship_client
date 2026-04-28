@@ -4,7 +4,7 @@ import React, { useState, useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Thumbs } from "swiper/modules";
 import Image from "next/image";
-
+import "swiper/css";
 import thumbal from "@/src/assets/mobile/thumbal.jpg";
 import c1 from "@/src/assets/mobile/color1.jpg";
 import c2 from "@/src/assets/mobile/color2.jpg";
@@ -24,7 +24,7 @@ const ProductGallery = () => {
 
 
   return (
-    <div className="max-w-[350px] md:max-w-[700px] sm:max-w-[500px] w-full mx-auto">
+    <div className="max-w-87.5 md:max-w-175 sm:max-w-125 w-full mx-auto">
       <div className="relative overflow-hidden">
         <Swiper
           modules={[Navigation, Thumbs]}

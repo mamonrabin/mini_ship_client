@@ -1,6 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 "use client";
 import { signOut } from "next-auth/react";
+import Link from "next/link";
 import React, { useState, useRef, useEffect } from "react";
 import { FaUser } from "react-icons/fa";
 import { IoIosArrowDown } from "react-icons/io";
@@ -47,9 +48,9 @@ const DropItems = () => {
         }`}
       >
         <div className="absolute md:w-45 bg-white mt-2 rounded text-gray-500 hover:text-gray-600 duration-300 cursor-pointer px-4 py-6 text-sm flex flex-col gap-1 shadow">
-          <p>Account Information</p>
-          <p>My Orders</p>
-          <p>My Wishlist</p>
+          <Link href="/profile"><p>Account Information</p></Link>
+          <Link href="/profile/order"><p>My Orders</p></Link>
+          <Link href="/profile"><p>My Wishlist</p></Link>
           <p
           onClick={() => signOut()}
           >Log Out</p>

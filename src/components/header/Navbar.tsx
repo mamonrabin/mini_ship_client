@@ -38,7 +38,7 @@ const Navbar = ({ session }: { session: any }) => {
 
         <div className="flex items-center md:gap-4 gap-2 text-sm font-medium">
           {session?.user ? (
-            <DropItems/>
+            <DropItems />
           ) : (
             <Link href="/login">
               <p className="flex items-center gap-1 capitalize md:text-base test-sm">
@@ -49,10 +49,12 @@ const Navbar = ({ session }: { session: any }) => {
           )}
 
           <p className="md:hidden">|</p>
-          <p className="flex items-center gap-1 capitalize md:text-base test-sm">
-            <ShoppingCart size={16} />{" "}
-            <span className="md:flex hidden">Cart</span>
-          </p>
+          <Link href="/checkout/cart">
+            <p className="flex items-center gap-1 capitalize md:text-base test-sm">
+              <ShoppingCart size={16} />{" "}
+              <span className="md:flex hidden">Cart(3)</span>
+            </p>
+          </Link>
         </div>
       </nav>
 

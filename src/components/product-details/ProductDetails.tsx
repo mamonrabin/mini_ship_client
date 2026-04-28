@@ -6,7 +6,7 @@ import ProductDescription from './ProductDescription';
 const ProductDetails = () => {
     return (
         <div>
-            <div className='Container grid lg:grid-cols-2 gap-8'>
+            <div className='Container py-6 grid lg:grid-cols-2 gap-8 bg-white border-b border-[#262626]/15'>
                 <ProductGallery/>
                 <ProductInfo/>
             </div>

@@ -12,7 +12,7 @@ import Insurance from "./Insurance";
 import Assured from "./Assured";
 const ProductInfo = () => {
   return (
-    <div>
+    <div className="">
       <div className="flex items-center justify-between relative">
         <h2 className="md:text-2xl text-xl font-semibold lg:w-110">
           Samsung Haier 1.6 Ton UVCool Inverter Pro DC Inverter Air Conditioner

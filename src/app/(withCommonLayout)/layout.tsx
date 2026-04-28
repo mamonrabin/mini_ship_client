@@ -1,7 +1,7 @@
 
 import CopyRight from "@/src/components/footer-section/CopyRight";
 import Footer from "@/src/components/footer-section/Footer";
-import TopFooter from "@/src/components/footer-section/TopFooter";
+// import TopFooter from "@/src/components/footer-section/TopFooter";
 import Navbar from "@/src/components/header/Navbar";
 import Topvar from "@/src/components/header/Topvar";
 import MessengerBtn from "@/src/shared/MessengerBtn";
@@ -16,13 +16,13 @@ export default async function layout({
   children: React.ReactNode;
 }>) {
   const session = await getServerSession(authOptions)
-  return <div className="">
+  return <div className="bg-[#EEEEEE]">
     <MessengerBtn/>
     <ScrollToBottomToTop/>
     <Topvar/>
     <Navbar session={session}/>
     {children}
-    <TopFooter/>
+    {/* <TopFooter/> */}
     <Footer/>
     <CopyRight/>
     </div>;

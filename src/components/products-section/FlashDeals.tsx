@@ -4,12 +4,13 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 import type { Swiper as SwiperType } from "swiper";
 
-import "swiper/css";
+// import "swiper/css";
 
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 import { productList } from "@/src/api/productsApi";
 import ProductCard from "@/src/card/ProductCard";
+import Link from "next/link";
 const FlashDeals = () => {
   const swiperRef = useRef<SwiperType | null>(null);
   return (
@@ -19,9 +20,11 @@ const FlashDeals = () => {
           <h2 className="md:text-2xl text-lg font-semibold capitalize flex-1">
             Flash Deals on Top Picks!
           </h2>
+          <Link href="/shop">
           <button className="capitalize text-base font-medium py-2 md:px-6 px-4 rounded  bg-[#1B5DD5] border border-[#1B5DD5] hover:bg-transparent text-white hover:text-[#1B5DD5] duration-300 cursor-pointer">
             view all
           </button>
+          </Link>
         </div>
 
         <div>

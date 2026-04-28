@@ -3,7 +3,7 @@ import React from 'react';
 
 const page = () => {
     return (
-        <div className='py-4'>
+        <div className='py-4 bg-white'>
            <Shop/>
         </div>
     );

@@ -4,11 +4,12 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 import type { Swiper as SwiperType } from "swiper";
 
-import "swiper/css";
+// import "swiper/css";
 
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { scategoryList } from "@/src/api/shopCategoryApi";
 import CategoryCard from "@/src/card/CategoryCard";
+import Link from "next/link";
 const Smartphones = () => {
   const swiperRef = useRef<SwiperType | null>(null);
   return (
@@ -18,9 +19,11 @@ const Smartphones = () => {
           <h2 className="md:text-2xl text-lg font-semibold capitalize flex-1">
             Buy Official Smartphones with Brand Warranty!
           </h2>
+          <Link href="/shop">
           <button className=" text-[#262626]/90 capitalize text-base font-medium py-2 md:px-6 px-4 rounded bg-white hover:bg-[#1B5DD5] hover:text-white duration-300 cursor-pointer">
             view all
           </button>
+          </Link>
         </div>
 
         <div>
