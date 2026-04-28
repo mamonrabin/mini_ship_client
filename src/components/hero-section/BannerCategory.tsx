@@ -10,7 +10,7 @@ const BannerCategory = () => {
   const [activeCategory, setActiveCategory] = useState<TCategory | null>(null);
 
   return (
-    <div className="relative lg:flex hidden flex-col gap-2 py-4 w-full">
+    <div className="relative lg:flex hidden flex-col gap-2 py-4 w-full bg-white">
       {categoryList.map((cat) => (
         <div
           key={cat.id}

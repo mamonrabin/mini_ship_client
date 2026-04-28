@@ -5,6 +5,7 @@ import Link from "next/link";
 import React, { useState, useRef, useEffect } from "react";
 import { FaUser } from "react-icons/fa";
 import { IoIosArrowDown } from "react-icons/io";
+import WishList from "../wishList/WishList";
 
 const DropItems = () => {
   const [open, setOpen] = useState(false);
@@ -34,9 +35,11 @@ const DropItems = () => {
        
         className="flex items-center cursor-pointer gap-2"
       >
+       <Link href="/profile">
         <p className="md:p-2 p-1 rounded-full border border-white bg-[#BDBDBD]">
           <FaUser size={14} />
         </p>
+       </Link>
         <p 
          onClick={() => setOpen(!open)}
         className="text-base md:flex hidden items-center gap-1">My Account <IoIosArrowDown size={16} /></p>
@@ -50,7 +53,7 @@ const DropItems = () => {
         <div className="absolute md:w-45 bg-white mt-2 rounded text-gray-500 hover:text-gray-600 duration-300 cursor-pointer px-4 py-6 text-sm flex flex-col gap-1 shadow">
           <Link href="/profile"><p>Account Information</p></Link>
           <Link href="/profile/order"><p>My Orders</p></Link>
-          <Link href="/profile"><p>My Wishlist</p></Link>
+          <WishList/>
           <p
           onClick={() => signOut()}
           >Log Out</p>
