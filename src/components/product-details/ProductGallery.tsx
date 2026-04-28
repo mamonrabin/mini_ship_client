@@ -3,6 +3,7 @@
 import React, { useState, useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Thumbs } from "swiper/modules";
+import type { Swiper as SwiperType } from "swiper";
 import Image from "next/image";
 import "swiper/css";
 import thumbal from "@/src/assets/mobile/thumbal.jpg";
@@ -17,7 +18,7 @@ import img4 from "@/src/assets/mobile/image4.jpg";
 const images = [c1, c2, c3, img1, img2, img3, img4];
 
 const ProductGallery = () => {
-  const [thumbsSwiper, setThumbsSwiper] = useState<never>(null);
+  const [thumbsSwiper, setThumbsSwiper] = useState<SwiperType | null>(null);
   const [activeIndex, setActiveIndex] = useState(0);
   const imgRefs = useRef<(HTMLDivElement | null)[]>([]);
   const allImages = [thumbal, ...images];
