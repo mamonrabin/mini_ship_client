@@ -21,7 +21,7 @@ const HomeAbout = () => {
         </p>
         <p className="mt-3 text-base">
           Start exploring our wide range of categories, including Smartphones,
-          Laptops, TVs, Refrigerators, Ovens, Smartwatches, Perfumes, and more.
+          Laptops, TVs, Refrigerators, and mobile Ovens, Smartwatches, Perfumes, and more.
           Your{" "}
           <span className="font-bold">
             satisfaction, affordability, and convenience
