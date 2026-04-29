@@ -54,7 +54,7 @@ const CartItem = () => {
                   <p className="md:text-sm text-xs font-medium hover:text-[#1B5DD5] duration-300">
                     Save for later
                   </p>
-                  <p className="text-[#1B5DD5] border border-[#1B5DD5] rounded py-2 px-4 text-sm font-medium">
+                  <p className="text-[#1B5DD5] hover:bg-[#F15A22] hover:text-white border border-[#1B5DD5] hover:border-[#F15A22] duration-300 rounded py-2 px-4 text-sm font-medium">
                     Remove
                   </p>
                 </div>

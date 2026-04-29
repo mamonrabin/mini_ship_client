@@ -5,6 +5,7 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { categoryList } from "@/src/api/categoryApi";
 import { TextAlignJustify, ChevronDown, Phone } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 const ResponsiveNav = () => {
   const [activeId, setActiveId] = useState<number | null>(null);
@@ -39,9 +40,11 @@ const ResponsiveNav = () => {
                       height={100}
                     />
                   </div>
-                  <p className="font-semibold text-base hover:text-[#1B5DD5] duration-300">
-                    {category.category}
-                  </p>
+                  <Link href="/shop">
+                    <p className="font-semibold text-base hover:text-[#1B5DD5] duration-300">
+                      {category.category}
+                    </p>
+                  </Link>
                 </div>
 
                 {/* Arrow only if subcategory exists */}
@@ -59,12 +62,14 @@ const ResponsiveNav = () => {
               {activeId === category.id && category.subCategory.length > 0 && (
                 <div className="ml-11 mt-2 flex flex-col gap-2">
                   {category.subCategory.map((sub) => (
-                    <p
-                      key={sub.id}
-                      className="text-base text-gray-600 hover:text-[#1B5DD5] cursor-pointer"
-                    >
-                      {sub.title}
-                    </p>
+                    <Link href="/shop" key={sub.id}>
+                      <p
+                        
+                        className="text-base text-gray-600 hover:text-[#1B5DD5] cursor-pointer"
+                      >
+                        {sub.title}
+                      </p>
+                    </Link>
                   ))}
                 </div>
               )}
